@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Keto inspirations-->
         <scene sceneID="rax-hP-nb6">
             <objects>
                 <tableViewController id="E4p-xy-c3J" sceneMemberID="viewController">
@@ -67,13 +67,13 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Keto Inspiration" id="rcr-i2-B4M">
+                            <tableViewSection id="rcr-i2-B4M">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="tx3-CH-9Bw">
-                                        <rect key="frame" x="0.0" y="261" width="414" height="177"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="tx3-CH-9Bw">
+                                        <rect key="frame" x="0.0" y="261" width="414" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tx3-CH-9Bw" id="Z9g-KN-RAI">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-16" translatesAutoresizingMaskIntoConstraints="NO" id="hOi-Yk-ALc">
@@ -95,11 +95,11 @@
                                             <segue destination="kBz-zs-Crv" kind="show" id="VCl-nF-7Gx"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="Ybe-8S-Fc3">
-                                        <rect key="frame" x="0.0" y="438" width="414" height="177"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="Ybe-8S-Fc3">
+                                        <rect key="frame" x="0.0" y="421" width="414" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ybe-8S-Fc3" id="s6m-ef-3gA">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-17" translatesAutoresizingMaskIntoConstraints="NO" id="GXS-Xb-DG3">
@@ -121,11 +121,11 @@
                                             <segue destination="Vga-wh-tKv" kind="show" id="7jh-Cd-FAR"/>
                                         </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="177" id="KoF-gZ-Js2">
-                                        <rect key="frame" x="0.0" y="615" width="414" height="177"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="160" id="KoF-gZ-Js2">
+                                        <rect key="frame" x="0.0" y="581" width="414" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="KoF-gZ-Js2" id="DWk-aP-Sw2">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="177"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-24" translatesAutoresizingMaskIntoConstraints="NO" id="ay1-AY-kCl">
@@ -155,11 +155,11 @@
                             <outlet property="delegate" destination="E4p-xy-c3J" id="6UQ-Oe-XcF"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Ogw-Ss-bTV"/>
+                    <navigationItem key="navigationItem" title="Keto inspirations" id="Ogw-Ss-bTV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SG3-ZQ-nnS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3983" y="-210"/>
+            <point key="canvasLocation" x="-4768.115942028986" y="-329.34782608695656"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pax-Ng-B3i">
@@ -191,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHi-C3-qzA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3097" y="-911"/>
+            <point key="canvasLocation" x="-4032" y="-863"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fGO-t2-6Za">
@@ -219,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DSi-gO-Rwt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3097.1014492753625" y="-246.19565217391306"/>
+            <point key="canvasLocation" x="-4033" y="-217"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="20A-7X-nsg">
@@ -255,28 +255,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PEl-Ou-MK9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3097" y="506"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="r6W-ta-jYq">
-            <objects>
-                <viewController id="01X-Zj-IQ9" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jmQ-xd-ims">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="MEA-hY-d87"/>
-                        <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="ZAK-Z3-HRr"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="G1A-vv-RTn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6sO-bd-GBV">
-                    <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <viewLayoutGuide key="safeArea" id="aiW-It-LzE"/>
-                </collectionReusableView>
-            </objects>
-            <point key="canvasLocation" x="-5668" y="-982"/>
+            <point key="canvasLocation" x="-4033" y="441"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="S0q-3h-0Lb">
@@ -321,7 +300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3BJ-kH-Q3d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4646.376811594203" y="-924.45652173913049"/>
+            <point key="canvasLocation" x="-5394" y="-1017"/>
         </scene>
         <!--Browse-->
         <scene sceneID="eXJ-4H-q7O">
@@ -329,8 +308,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Pk8-z9-pps" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Browse" image="eye" catalog="system" id="OHD-pf-Bb7"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kv9-iJ-KCC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Kv9-iJ-KCC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -340,7 +319,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ogw-2t-UQp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4661" y="-209"/>
+            <point key="canvasLocation" x="-5567" y="-329"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="QmD-jH-Yjq">
@@ -358,7 +337,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gBV-3p-Ocs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5339.130434782609" y="-208.69565217391306"/>
+            <point key="canvasLocation" x="-6361" y="-329"/>
         </scene>
     </scenes>
     <resources>
